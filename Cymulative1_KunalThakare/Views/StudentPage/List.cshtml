@@ -1,0 +1,27 @@
+﻿@model IEnumerable<Student>
+
+<h1>All Students</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Student ID</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Student Number</th>
+            <th>Enrolment Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var Student in Model)
+        {
+            <tr>
+                <td>@Student.StudentId</td>
+                <td>@Student.StudentFName</td>
+                <td>@Student.StudentLName</td>
+                <td>@Student.StudentNumber</td>
+                <td>@Student.EnrolDate.ToShortDateString()</td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,48 @@
+﻿@model TeacherViewModel
+
+<h1>Enter Teacher ID to check details</h1>
+<form method="get" asp-action="Show">
+    <div class="form-group">
+        <label for="teacherId">Enter Teacher ID:</label>
+        <input type="number" class="form-control" id="teacherId" name="id" placeholder="Enter Teacher ID" required />
+    </div>
+    <button type="submit" class="btn btn-primary mt-2">Search</button>
+</form>
+
+@if (Model != null)
+{
+    <h2>Teacher Details</h2>
+    <p><strong>ID:</strong> @Model.Teacher.TeacherId</p>
+    <p><strong>First Name:</strong> @Model.Teacher.TeacherFName</p>
+    <p><strong>Last Name:</strong> @Model.Teacher.TeacherLName</p>
+    <p><strong>Employee Number:</strong> @Model.Teacher.EmployeeNumber</p>
+    <p><strong>Hire Date:</strong> @Model.Teacher.HireDate.ToShortDateString()</p>
+    <p><strong>Salary:</strong> $@Model.Teacher.Salary</p>
+
+    <h4>Courses Taught by this teacher:</h4>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Course ID</th>
+            <th>Course Code</th>
+            <th>Course Name</th>
+            <th>Start Date</th>
+            <th>Finish Date</th>
+        </tr>
+    </thead>
+        <tbody>
+            @foreach (var course in Model.Courses)
+            {
+                <tr>
+                    <td>@course.CourseId</td>
+                    <td>@course.CourseCode</td>
+                    <td>@course.CourseName</td>
+                    <td>@course.StartDate.ToShortDateString()</td>
+                    <td>@course.FinishDate.ToShortDateString()</td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+
+}

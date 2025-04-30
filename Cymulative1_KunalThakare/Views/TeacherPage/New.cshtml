@@ -1,0 +1,20 @@
+﻿<h2>Add New Teacher</h2>
+
+<form asp-action="AddTeacher" method="post">
+    <label for="TeacherFName">First Name:</label>
+    <input type="text" id="TeacherFName" name="TeacherFName" required />
+
+    <label for="TeacherLName">Last Name:</label>
+    <input type="text" id="TeacherLName" name="TeacherLName" required />
+
+    <label for="EmployeeNumber">Employee Number:</label>
+    <input type="text" id="EmployeeNumber" name="EmployeeNumber" required />
+
+    <label for="HireDate">Hire Date:</label>
+    <input type="date" id="HireDate" name="HireDate" required />
+
+    <label for="Salary">Salary:</label>
+    <input type="number" id="Salary" name="Salary" step="0.01" required />
+
+    <button type="submit" class="btn btn-success">Add Teacher</button>
+</form>

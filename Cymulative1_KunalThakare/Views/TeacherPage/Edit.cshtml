@@ -1,0 +1,45 @@
+﻿@model Cymulative1_KunalThakare.Models.Teacher
+
+<h2>Edit Teacher</h2>
+
+<!-- Search for Teacher -->
+<form method="get" asp-action="SearchTeacher">
+    <label for="searchId">Search Teacher by ID:</label>
+    <input type="number" id="searchId" name="TeacherId" required />
+    <button type="submit" class="btn btn-primary">Search</button>
+</form>
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <p class="alert alert-danger">@TempData["ErrorMessage"]</p>
+}
+
+@if (Model != null)
+{
+    <h3>Teacher Details</h3>
+    <form method="post" asp-action="UpdateTeacher">
+        <input type="hidden" name="TeacherId" value="@Model.TeacherId" />
+
+        <label for="TeacherFName">First Name:</label>
+        <input type="text" id="TeacherFName" name="TeacherFName" value="@Model.TeacherFName" required />
+
+        <label for="TeacherLName">Last Name:</label>
+        <input type="text" id="TeacherLName" name="TeacherLName" value="@Model.TeacherLName" required />
+
+        <label for="EmployeeNumber">Employee Number:</label>
+        <input type="text" id="EmployeeNumber" name="EmployeeNumber" value="@Model.EmployeeNumber" required pattern="^T\d{3}$" />
+
+        <label for="HireDate">Hire Date:</label>
+        <input type="date" id="HireDate" name="HireDate" value="@Model.HireDate.ToString("yyyy-MM-dd")" required />
+
+        <label for="Salary">Salary:</label>
+        <input type="number" id="Salary" name="Salary" value="@Model.Salary" step="0.01" required />
+
+        <button type="submit" class="btn btn-success">Update Teacher</button>
+    </form>
+}
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <p class="alert alert-success">@TempData["SuccessMessage"]</p>
+}
