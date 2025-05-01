@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kunal\\OneDrive\\Desktop\\AzureLearning\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{800DAF62-9AC6-4564-928E-4211D6264885}|Cymulative1_KunalThakare\\Cymulative1_KunalThakare.csproj|c:\\users\\kunal\\onedrive\\desktop\\azurelearning\\cymulative1_kunalthakare\\controllers\\coursepagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{800DAF62-9AC6-4564-928E-4211D6264885}|Cymulative1_KunalThakare\\Cymulative1_KunalThakare.csproj|solutionrelative:cymulative1_kunalthakare\\controllers\\coursepagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{800DAF62-9AC6-4564-928E-4211D6264885}|Cymulative1_KunalThakare\\Cymulative1_KunalThakare.csproj|c:\\users\\kunal\\onedrive\\desktop\\azurelearning\\cymulative1_kunalthakare\\cymulative1_kunalthakare.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{800DAF62-9AC6-4564-928E-4211D6264885}|Cymulative1_KunalThakare\\Cymulative1_KunalThakare.csproj|solutionrelative:cymulative1_kunalthakare\\cymulative1_kunalthakare.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CoursePageController.cs",
+              "DocumentMoniker": "C:\\Users\\kunal\\OneDrive\\Desktop\\AzureLearning\\Cymulative1_KunalThakare\\Controllers\\CoursePageController.cs",
+              "RelativeDocumentMoniker": "Cymulative1_KunalThakare\\Controllers\\CoursePageController.cs",
+              "ToolTip": "C:\\Users\\kunal\\OneDrive\\Desktop\\AzureLearning\\Cymulative1_KunalThakare\\Controllers\\CoursePageController.cs",
+              "RelativeToolTip": "Cymulative1_KunalThakare\\Controllers\\CoursePageController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T15:55:54.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cymulative1_KunalThakare",
+              "DocumentMoniker": "C:\\Users\\kunal\\OneDrive\\Desktop\\AzureLearning\\Cymulative1_KunalThakare\\Cymulative1_KunalThakare.csproj",
+              "RelativeDocumentMoniker": "Cymulative1_KunalThakare\\Cymulative1_KunalThakare.csproj",
+              "ToolTip": "C:\\Users\\kunal\\OneDrive\\Desktop\\AzureLearning\\Cymulative1_KunalThakare\\Cymulative1_KunalThakare.csproj",
+              "RelativeToolTip": "Cymulative1_KunalThakare\\Cymulative1_KunalThakare.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-01T01:48:43.39Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
